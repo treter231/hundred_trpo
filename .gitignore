@@ -1,0 +1,9 @@
+*.d
+
+#Compiled Object files
+*.o
+*.exe
+*.out
+bin
+build
+*hundred*
