@@ -8,7 +8,7 @@
 #define GRAY "\033[2m"
 
 int check(int Num, int Count);
-//void info_print();
+
 
 
 #endif
