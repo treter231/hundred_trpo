@@ -9,3 +9,17 @@ int check(int Num, int Count){
         return 0;
     }
 }
+
+
+int check_isalpha(Num)
+{
+  int res;
+      res=Num;
+    fflush(stdin);
+    if(res==1) { 
+	return 1;
+    }else{
+	return 0;
+    }
+}
+
