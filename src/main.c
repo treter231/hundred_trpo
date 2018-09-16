@@ -6,7 +6,7 @@
 const int InitialCount=100;
 
 int Count, Num, Player, x, a;
-int Correct, Number_correct;
+int Correct;
 
 int main () {
 
@@ -55,10 +55,10 @@ int main () {
 		    printf("%s-----------------------------------------%s\n\n",RED, RESET);
                 
                     Correct = check(Num, Count);
-		    Number_correct = check_isalpha(Num);
+		    
                
-                    if (Correct == 0 && Number_correct == 0){
-                        printf("Здесь что-то не так (Error)! Повторите ввод!\n");
+                    if (Correct == 0){
+                        printf("Error, введите число от 1 до 10 (не превышающее кол-во спичек)!\n");
 		    
                     }
 	    	   
